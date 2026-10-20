@@ -1,0 +1,3 @@
+# O núcleo do aplicativo usa a biblioteca padrão do Python 3.11 ou superior.
+# Opcional: ancestralidade com painéis de mais de 12 componentes e reamostragem.
+numpy>=1.26,<3

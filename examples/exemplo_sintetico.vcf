@@ -1,0 +1,9 @@
+##fileformat=VCFv4.2
+##reference=GRCh37
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Depth">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SINTETICO
+10	96541616	rs4244285	G	A	99	PASS	.	GT:DP:GQ	0/1:40:99
+12	21331549	rs4149056	T	C	99	PASS	.	GT:DP:GQ	0/1:30:99
+2	136608646	rs4988235	G	A	99	PASS	.	GT:DP:GQ	0/1:35:99

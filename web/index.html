@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102e38"><title>Hélice • seu DNA, em perspectiva</title>
+  <link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script>
+</head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="#overview" aria-label="Hélice, visão geral"><span class="brand-mark">⫶</span> hélice<span class="brand-dot">.</span></a>
+  <div class="workspace-label">EXPLORADOR GENÉTICO</div>
+  <nav aria-label="Navegação principal">
+    <button class="nav active" data-view="overview"><span class="nav-icon">◫</span>Visão geral</button>
+    <div class="nav-label">ÁREAS DE ANÁLISE</div>
+    <button class="nav" data-view="medical"><span class="nav-icon">✚</span>Saúde e doenças</button>
+    <button class="nav" data-view="pharma"><span class="nav-icon">◒</span>Farmacogenética</button>
+    <button class="nav" data-view="nutrition"><span class="nav-icon">♧</span>Nutrição</button>
+    <button class="nav" data-view="performance"><span class="nav-icon">↗</span>Performance</button>
+    <button class="nav" data-view="ancestry"><span class="nav-icon">◎</span>Ancestralidade</button>
+    <div class="nav-label">SEUS DADOS</div>
+    <button class="nav" data-view="explorer"><span class="nav-icon">⌕</span>Explorar variantes</button>
+    <button class="nav" data-view="methods"><span class="nav-icon">≡</span>Método e fontes</button>
+  </nav>
+  <div class="sidebar-bottom"><div class="local-badge"><span></span> PROCESSAMENTO LOCAL</div><p>Seu DNA fica neste computador.<br>Sem conta. Sem envio para análise.</p><button id="clear-button" class="quiet">Limpar dados da sessão ↗</button><div class="version">HÉLICE · VERSÃO 1.1 EXPLORATÓRIA</div></div>
+</aside>
+<div class="shell">
+  <header class="topbar"><div class="breadcrumb">Meu espaço <span>/</span> <strong id="breadcrumb">Visão geral</strong></div><div class="top-actions"><span class="status-pill"><span></span> Local e privado</span><button id="reference-button" class="button subtle">Bases de referência</button></div></header>
+  <main>
+    <div id="job-banner" class="job-banner" role="status" aria-live="polite" hidden></div>
+    <div class="page-heading"><div><div class="eyebrow">CIÊNCIA COM CONTEXTO</div><h1 id="page-title">Seu DNA, em perspectiva.</h1><p id="page-description">Explore o que seus dados podem revelar — e conheça os limites de cada análise.</p></div><div class="heading-actions"><button class="button export-control" id="export-html" hidden>↓ Relatório HTML</button><button class="button primary" id="import-button">＋ Importar DNA</button></div></div>
+    <section id="content" aria-label="Conteúdo da análise"></section>
+    <footer><span>Hélice / Exploração genética responsável</span><span>Informação exploratória. Achados clínicos exigem confirmação.</span></footer>
+  </main>
+</div>
+<dialog id="import-dialog" aria-labelledby="import-title"><form method="dialog"><button class="close" aria-label="Fechar">×</button></form><div class="eyebrow">COMECE PELOS SEUS DADOS</div><h2 id="import-title">Importar arquivo de DNA</h2><p>A leitura e a análise acontecem no servidor local deste computador.</p><form id="upload-form"><label class="dropzone" id="dropzone"><span class="upload-symbol">↥</span><strong id="selected-filename">Escolha ou arraste seu arquivo</strong><span>TXT / CSV de genotipagem · VCF / VCF.GZ</span><small>Até 512 MB pela interface; arquivos maiores pelo terminal.</small><input id="dna-file" type="file" accept=".txt,.csv,.tsv,.vcf,.gz" required></label><div class="form-grid"><label>Referência genômica<select id="build-select"><option value="auto">Detectar pelo cabeçalho</option><option>GRCh37</option><option>GRCh38</option></select></label><label>Orientação dos alelos<select id="strand-select"><option value="auto">Detectar pelo cabeçalho</option><option value="+">Fita positiva confirmada pelo laboratório</option></select></label></div><label>Amostra do VCF <span class="muted">(apenas se houver mais de uma)</span><input id="sample-input" placeholder="Nome exato da amostra"></label><div class="note">A referência e a fita precisam corresponder ao arquivo original. Um cabeçalho inserido por um conversor não confirma essas informações.</div><p id="upload-error" class="error" role="alert"></p><button class="button primary full" type="submit" id="upload-submit">Importar e analisar →</button></form></dialog>
+<dialog id="reference-dialog" aria-labelledby="reference-title"><form method="dialog"><button class="close" aria-label="Fechar">×</button></form><div class="eyebrow">REFERÊNCIAS PÚBLICAS, ANÁLISE LOCAL</div><h2 id="reference-title">Base ClinVar</h2><p>Amplie a busca para todos os genes e condições com variantes presentes no VCF público do ClinVar. O download contém somente referências públicas.</p><div id="database-list"></div><label>Referência da base<select id="reference-build"><option>GRCh37</option><option>GRCh38</option></select></label><button id="download-reference" class="button primary full">↓ Baixar e indexar ClinVar do NCBI</button><p class="muted">Download grande (centenas de MB), com índice local que pode ocupar mais de 1 GB. Precisa de internet apenas para obter a base.</p><div class="divider">OU IMPORTAR UMA CÓPIA LOCAL</div><label class="button full">Selecionar clinvar.vcf ou clinvar.vcf.gz<input id="reference-file" type="file" accept=".vcf,.gz" hidden></label><p id="reference-error" class="error" role="alert"></p><p class="small">As bases persistem na pasta data. Limpar a sessão remove os genótipos da memória, mas preserva essas referências públicas.</p></dialog>
+<dialog id="detail-dialog"><form method="dialog"><button class="close" aria-label="Fechar">×</button></form><div id="detail-content"></div></dialog>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+</body></html>

@@ -1,0 +1,506 @@
+{
+  "retrieved": "2026-10-19",
+  "provider": "Ensembl REST / dbSNP",
+  "records": [
+    {
+      "rsid": "rs1800562",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "6",
+          "pos": 26093141,
+          "alleles": [
+            "G",
+            "A"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs1800562?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "6",
+          "pos": 26092913,
+          "alleles": [
+            "G",
+            "A"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs1800562?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs1799945",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "6",
+          "pos": 26091179,
+          "alleles": [
+            "C",
+            "G",
+            "T"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs1799945?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "6",
+          "pos": 26090951,
+          "alleles": [
+            "C",
+            "G",
+            "T"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs1799945?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs6025",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "1",
+          "pos": 169519049,
+          "alleles": [
+            "T",
+            "C",
+            "A"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs6025?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "1",
+          "pos": 169549811,
+          "alleles": [
+            "C",
+            "A",
+            "T"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs6025?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs1799963",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "11",
+          "pos": 46761055,
+          "alleles": [
+            "G",
+            "A"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs1799963?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "11",
+          "pos": 46739505,
+          "alleles": [
+            "G",
+            "A"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs1799963?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs334",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "11",
+          "pos": 5248232,
+          "alleles": [
+            "T",
+            "A",
+            "C",
+            "G"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs334?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "11",
+          "pos": 5227002,
+          "alleles": [
+            "T",
+            "A",
+            "C",
+            "G"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs334?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs4244285",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "10",
+          "pos": 96541616,
+          "alleles": [
+            "G",
+            "A",
+            "C",
+            "T"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs4244285?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "10",
+          "pos": 94781859,
+          "alleles": [
+            "G",
+            "A",
+            "C",
+            "T"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs4244285?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs4986893",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "10",
+          "pos": 96540410,
+          "alleles": [
+            "G",
+            "A"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs4986893?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "10",
+          "pos": 94780653,
+          "alleles": [
+            "G",
+            "A"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs4986893?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs12248560",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "10",
+          "pos": 96521657,
+          "alleles": [
+            "C",
+            "A",
+            "T"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs12248560?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "10",
+          "pos": 94761900,
+          "alleles": [
+            "C",
+            "A",
+            "T"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs12248560?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs4149056",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "12",
+          "pos": 21331549,
+          "alleles": [
+            "T",
+            "A",
+            "C"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs4149056?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "12",
+          "pos": 21178615,
+          "alleles": [
+            "T",
+            "A",
+            "C"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs4149056?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs2231142",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "4",
+          "pos": 89052323,
+          "alleles": [
+            "G",
+            "A",
+            "C",
+            "T"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs2231142?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "4",
+          "pos": 88131171,
+          "alleles": [
+            "G",
+            "A",
+            "C",
+            "T"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs2231142?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs1799853",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "10",
+          "pos": 96702047,
+          "alleles": [
+            "C",
+            "A",
+            "T"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs1799853?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "10",
+          "pos": 94942290,
+          "alleles": [
+            "C",
+            "A",
+            "T"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs1799853?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs1057910",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "10",
+          "pos": 96741053,
+          "alleles": [
+            "A",
+            "C",
+            "G"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs1057910?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "10",
+          "pos": 94981296,
+          "alleles": [
+            "A",
+            "C",
+            "G"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs1057910?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs9923231",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "16",
+          "pos": 31107689,
+          "alleles": [
+            "C",
+            "A",
+            "G",
+            "T"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs9923231?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "16",
+          "pos": 31096368,
+          "alleles": [
+            "C",
+            "A",
+            "G",
+            "T"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs9923231?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs3918290",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "1",
+          "pos": 97915614,
+          "alleles": [
+            "C",
+            "A",
+            "G",
+            "T"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs3918290?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "1",
+          "pos": 97450058,
+          "alleles": [
+            "C",
+            "A",
+            "G",
+            "T"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs3918290?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs67376798",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "1",
+          "pos": 97547947,
+          "alleles": [
+            "T",
+            "A"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs67376798?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "1",
+          "pos": 97082391,
+          "alleles": [
+            "T",
+            "A"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs67376798?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs116855232",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "13",
+          "pos": 48619855,
+          "alleles": [
+            "C",
+            "T"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs116855232?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "13",
+          "pos": 48045719,
+          "alleles": [
+            "C",
+            "T"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs116855232?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs4988235",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "2",
+          "pos": 136608646,
+          "alleles": [
+            "G",
+            "A",
+            "C",
+            "T"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs4988235?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "2",
+          "pos": 135851076,
+          "alleles": [
+            "G",
+            "A",
+            "C",
+            "T"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs4988235?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs1801133",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "1",
+          "pos": 11856378,
+          "alleles": [
+            "G",
+            "A",
+            "C"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs1801133?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "1",
+          "pos": 11796321,
+          "alleles": [
+            "G",
+            "A",
+            "C"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs1801133?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs2282679",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "4",
+          "pos": 72608383,
+          "alleles": [
+            "T",
+            "G"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs2282679?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "4",
+          "pos": 71742666,
+          "alleles": [
+            "T",
+            "G"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs2282679?content-type=application/json"
+        }
+      }
+    },
+    {
+      "rsid": "rs1815739",
+      "assemblies": {
+        "GRCh37": {
+          "chrom": "11",
+          "pos": 66328095,
+          "alleles": [
+            "T",
+            "C",
+            "A"
+          ],
+          "source": "https://grch37.rest.ensembl.org/variation/human/rs1815739?content-type=application/json"
+        },
+        "GRCh38": {
+          "chrom": "11",
+          "pos": 66560624,
+          "alleles": [
+            "C",
+            "A",
+            "T"
+          ],
+          "source": "https://rest.ensembl.org/variation/human/rs1815739?content-type=application/json"
+        }
+      }
+    }
+  ]
+}
